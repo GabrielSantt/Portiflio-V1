@@ -16,7 +16,7 @@ padding: 0px;}
             --font1:"CreamCake";
             --font2:"CaviarDreams";
             --font3:"grandhotel";
-            --font4: 'Bebas Neue', cursive;
+            --font4: 'Bebas Neue', "cursive";
             --cor1: #f8c004;
             --cor2: #0099c7;
             --cor3: #027091;
@@ -42,7 +42,7 @@ header img{
 }
 a{
     border-radius: 16px;
-    font: normal 20px var(--font2);
+    font: normal 20px var(--font4);
     font-weight: normal;
     text-decoration: none;
     color: white;
