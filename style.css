@@ -4,14 +4,14 @@ padding: 0px;}
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: "CreamCake";
-    src: url(/font/CreamCake.otf) format("opentype");
+    src: url(font/CreamCake.otf) format("opentype");
 }
 @font-face {
     font-family: "CaviarDreams";
-    src: url(/font/CaviarDreams.ttf) format("truetype");}
+    src: url(font/CaviarDreams.ttf) format("truetype");}
     @font-face {
         font-family: "grandhotel";
-        src: url(/font/GrandHotel-Regular.otf) format("opentype");}
+        src: url(font/GrandHotel-Regular.otf) format("opentype");}
         :root{
             --font1:"CreamCake";
             --font2:"CaviarDreams";
