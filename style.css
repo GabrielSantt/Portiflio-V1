@@ -44,7 +44,7 @@ header img{
 }
 a{
     border-radius: 16px;
-    font: 400 20px var(--font5);
+    font: 400 16px var(--font5);
     font-weight: normal;
     text-decoration: none;
     color: white;
