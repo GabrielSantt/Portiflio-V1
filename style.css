@@ -25,10 +25,7 @@ padding: 0px;}
         }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8c004;
-    background-image: url(img/background.PNG);
-    background-size: contain;
-    background-position: center center;
+    background-image: linear-gradient( to bottom,#f0c023, #d8a706);
 
 }
 header {
