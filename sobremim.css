@@ -63,6 +63,7 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 main>section{ 
+    display: table;
     vertical-align: middle;
     background-color: #0098c7d5;
     padding: 25px;
