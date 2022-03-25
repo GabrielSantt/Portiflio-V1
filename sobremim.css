@@ -54,7 +54,9 @@ a:hover{
     color:#0b2868c2 ;
 }
 main{
-    display:   flow-root;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     max-width: 750px;
     margin: auto;
@@ -63,13 +65,11 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 main>section{ 
-    display: block;
-    vertical-align: middle;
     background-color: #0098c7d5;
     padding: 25px;
-   margin-top: 130px;
    border-radius: 6px;
    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
+  
 }
 main>section>article>h1{
     font:45px var(--font1);
