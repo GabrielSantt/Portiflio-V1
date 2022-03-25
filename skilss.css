@@ -54,47 +54,40 @@ a:hover{
     color:#0b2868c2 ;
 }
 main{
+    display:flex;
     background-color: white;
     max-width: 750px;
     margin: auto;
-    height: 900px;
+    height: auto;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
 }
-main>h1{
-    font: 70px var(--font1);
-    text-align: center;
-    padding-top: 20px;
-    color: #0099c7;
-    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.267);
-}
-main img{
-    display: block;
-    max-width: 40%;
-    margin: auto;
-    padding-top: 25px;  
-}
 main>section{ 
-    background-color: #0098c7d5;
+    display: block;
     margin: 0px ;
     padding: 25px;
    margin-top: 25px;
 }
-
-main>section>p{
-    font: 400 20px var(--font2);
-    text-align: justify;
-    padding: 5px;
-    color: white;
-    text-shadow:1px 1px 6px rgba(0, 0, 0, 0.733); 
+main> section> article{
+    display:flex ;
 }
-
+main> section> article>img{
+    width: fit-content;
+    height: fit-content;
+    
+}
+main>section>article>div>h1,p{
+    padding: 16px;
+    text-indent: 16px;
+    text-align: justify;
+    line-height: 27px;
+}
 footer{
     font: 400 20px var(--font2);
-    margin-top: 16px;
     background-image: linear-gradient(to top, #0099c7, #0283aa);
     text-align: center;
     color:white;
-    padding: 16px;
     text-shadow:3px 3px 4px rgba(0, 0, 0, 0.267); 
+    padding: 16px;
+    margin-top: 16px;
 }
