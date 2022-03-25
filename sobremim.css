@@ -49,9 +49,9 @@ a{
     
 }
 a:hover{
-    background-color: rgba(255, 255, 255, 0.137);
-    padding: 8px;
-    color:#0b2868c2 ;
+    background-color: rgba(255, 255, 255, 0.075);
+    padding: 4px;
+    color:#0b2868dc ;
 }
 main{
     display:flex;
