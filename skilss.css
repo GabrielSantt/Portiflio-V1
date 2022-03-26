@@ -54,7 +54,6 @@ a:hover{
     color:#0b2868c2 ;
 }
 main{
-    display:flex;
     background-color: white;
     max-width: 750px;
     margin: auto;
@@ -63,26 +62,48 @@ main{
     border-radius: 0px 0px 10px 10px;
 }
 main>section{ 
-    display: block;
-    margin: 0px ;
-    padding: 25px;
-   margin-top: 25px;
+    margin: 0px 0px 0px 0px;
 }
 main> section> article{
-    display:flex ;
+    padding: 20px;
+    position: relative;
+   display:flex;
+   align-items: center;
 }
 main> section> article>img{
-    width: fit-content;
-    height: fit-content;
-    
+    margin: auto;
+    max-width: 20%;
 }
-main>section>article>div>h1,p{
-    padding: 16px;
-    text-indent: 16px;
+main>section>article>div{
+    padding: 0px 16px 16px 16px;
+    text-indent: 10px;
     text-align: justify;
     line-height: 27px;
 }
+div>p,h1{
+    font: 400 17px var(--font2);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.493);
+}
+div>h1{
+    font: bolder 20px var(--font2);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.493);
+}
+
+.bgazul{
+    background-color: #ffffff;
+    margin: 0px; 
+}
+.bgbranco{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.651);
+    background-image:url(img/backgrounddiv.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 footer{
+  
     font: 400 20px var(--font2);
     background-image: linear-gradient(to top, #0099c7, #0283aa);
     text-align: center;
