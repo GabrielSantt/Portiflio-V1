@@ -39,7 +39,7 @@ header img{
    max-width: 60%;
    min-width: 30%;
 }
-a{
+nav>a{
     border-radius: 16px;
     font: 400 16px var(--font5);
     font-weight: normal;
@@ -48,47 +48,67 @@ a{
     padding: 16px;
     
 }
-a:hover{
+nav>a:hover{
     background-color: rgba(255, 255, 255, 0.137);
     padding: 8px;
     color:#0b2868c2 ;
 }
 main{
+    padding: 25px;
     background-color: white;
     max-width: 750px;
     margin: auto;
-    height: 900px;
+    height: 1030px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
 }
-main>h1{
-    font: 70px var(--font1);
-    text-align: center;
-    padding-top: 20px;
-    color: #0099c7;
-    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.267);
+article{
+    border: 1px solid  #027091;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 16px;
+    height: auto;
 }
-main img{
-    display: block;
-    max-width: 40%;
-    margin: auto;
-    padding-top: 25px;  
-}
-main>section{ 
-    background-color: #0098c7d5;
-    margin: 0px ;
-    padding: 25px;
-   margin-top: 25px;
-}
-
-main>section>p{
-    font: 400 20px var(--font2);
-    text-align: justify;
-    padding: 5px;
+h1{
     color: white;
-    text-shadow:1px 1px 6px rgba(0, 0, 0, 0.733); 
+    padding: 10px;
+    margin: -17px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #0099c7;
+    text-align: center;
+    font: 30px var(--font2);
 }
 
+ img{
+    display: block;
+    max-width: 50%;
+    margin: auto;
+    padding:35px;  
+}
+
+article>p{
+    text-align: justify;
+    text-indent: 16px;
+    line-height: 20px;
+    font-family: var(--font2);
+    margin: 16px;
+}
+main>section>article>div{
+   text-align: center;
+ 
+   
+}
+div>a{
+    text-decoration: none;
+    background-image: linear-gradient(to bottom,#01ace0, #5bd1f5 );
+    color: white;
+    padding: 5px;
+    border-radius: 16px;
+    font: bolder;
+}
+div>a:hover{
+    background-image: linear-gradient(to bottom,#01ace0, #015f7c );
+}
 footer{
     font: 400 20px var(--font2);
     margin-top: 16px;

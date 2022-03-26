@@ -57,41 +57,49 @@ main{
     background-color: white;
     max-width: 750px;
     margin: auto;
-    height: 900px;
+    height: 700px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
+   
 }
-main>h1{
-    font: 70px var(--font1);
-    text-align: center;
-    padding-top: 20px;
-    color: #0099c7;
-    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.267);
+article{
+    padding: 26px;
 }
-main img{
-    display: block;
-    max-width: 40%;
+main> section> article>img{
     margin: auto;
-    padding-top: 25px;  
+    max-width: 20%;
 }
-main>section{ 
-    background-color: #0098c7d5;
-    margin: 0px ;
-    padding: 25px;
-   margin-top: 25px;
-}
-
-main>section>p{
-    font: 400 20px var(--font2);
+main>section>article>div{
+    padding: 0px 16px 16px 16px;
+    text-indent: 10px;
     text-align: justify;
-    padding: 5px;
-    color: white;
-    text-shadow:1px 1px 6px rgba(0, 0, 0, 0.733); 
+    line-height: 27px;
 }
-
+main>section>article>div>h1{
+    text-align: center;
+}
+div>p, div{
+    font: 400 17px var(--font2);
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.493);}
+#azul{
+    background-color: #0099c7;
+    margin: -px;
+}
+.ladolado{
+    display: flex;
+    align-items: center; 
+}
+.centro{
+    text-align: center;
+} 
+.cursos{
+   margin-top: 16px;
+   text-align: justify;
+   
+}
 footer{
     font: 400 20px var(--font2);
-    margin-top: 16px;
+    margin-top: 80px;
     background-image: linear-gradient(to top, #0099c7, #0283aa);
     text-align: center;
     color:white;
