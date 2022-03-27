@@ -87,6 +87,7 @@ article p{
     text-align: center;
     color: #0099c7;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
+    margin: auto;
 }
 article a{
     text-decoration: none;
@@ -114,7 +115,7 @@ article a:hover{
 }
 footer{
     font: 400 20px var(--font2);
-    margin-top: 80px;
+    margin-top: 20px;
     background-image: linear-gradient(to top, #0099c7, #0283aa);
     text-align: center;
     color:white;
