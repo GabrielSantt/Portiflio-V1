@@ -61,7 +61,7 @@ main{
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
     padding: 25px;
-    height: auto;
+    height: 600px;
 }
 main>h1{
     font: 70px var(--font1);
@@ -87,7 +87,7 @@ article>img{
 }
 article p{
     
-    font: normal 20px var(--font4);
+    font: normal 20px arial;
     text-align: center;
     color: #0099c7;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.301);
