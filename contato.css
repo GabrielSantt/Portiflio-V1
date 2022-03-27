@@ -71,6 +71,7 @@ main>h1{
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.267);
 }
 article{
+    position: relative;
     border-radius: 15px 0px 15px;
     background-color: #b0eafc;
     display: flex;
@@ -83,24 +84,22 @@ article{
 }
 article>img{
     width: 20%;
-    position: relative;
     padding: 0px;
+    
 }
 article p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font: bold 20px var(--font2);
+    
+    font: normal 20px var(--font4);
     text-align: center;
     color: #0099c7;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.301);
      padding: 20px;
 }
 article a{
     text-decoration: none;
     background-color: #0099c7;
     color: white;
-    padding: 2px;
+    padding: 2px 1px 2px 1px;
     border-radius: 16px;
     font: bolder 5px;
 }
@@ -114,12 +113,14 @@ article a:hover{
 }
 
 .linkedin{
-    width: 17%;
-   
+    width: 17%;  
+}
+.email{
+
 }
 footer{
     font: 400 20px var(--font2);
-    margin-top: 16px;
+    margin: 16px 0px 0px 0px;
     background-image: linear-gradient(to top, #0099c7, #0283aa);
     text-align: center;
     color:white;
