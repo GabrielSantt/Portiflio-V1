@@ -58,7 +58,7 @@ main{
     background-color: white;
     max-width: 750px;
     margin: auto;
-    height: 700px;
+    height: auto;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
     height: auto;
@@ -115,7 +115,7 @@ article a:hover{
 }
 footer{
     font: 400 20px var(--font2);
-    margin-top: 20px;
+    margin-top: 16px;
     background-image: linear-gradient(to top, #0099c7, #0283aa);
     text-align: center;
     color:white;
