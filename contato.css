@@ -61,7 +61,6 @@ main{
     height: auto;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.479);
     border-radius: 0px 0px 10px 10px;
-    height: auto;
     padding: 25px;
 }
 main>h1{
@@ -76,6 +75,7 @@ article{
     background-color: #b0eafc;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 16px;
     margin: auto;
     margin-bottom: 16px;
@@ -88,6 +88,7 @@ article p{
     color: #0099c7;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
     margin: auto;
+    width: auto;
 }
 article a{
     text-decoration: none;
