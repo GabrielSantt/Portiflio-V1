@@ -45,12 +45,13 @@ nav>a{
     font-weight: normal;
     text-decoration: none;
     color: white;
-    padding: 16px;
-    
+     padding: 1px 10px 1px 10px; 
+     line-height: 25px;
+     margin: 20px 10px 20px 10px;
 }
 nav>a:hover{
     background-color: rgba(255, 255, 255, 0.137);
-    padding: 8px;
+    padding: 3px 7px 3px 7px;
     color:#0b2868c2 ;
 }
 main{
