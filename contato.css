@@ -84,11 +84,11 @@ article{
 article p{
     padding: 20px;
     font: bold 20px var(--font2);
-    text-align: center;
+    text-align: left;
     color: #0099c7;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
     margin: auto;
-    width: auto;
+    
 }
 article a{
     text-decoration: none;
