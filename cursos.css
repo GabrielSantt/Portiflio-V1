@@ -84,6 +84,7 @@ div>p, div{
 #azul{
     background-color: #0099c7;
     margin: -px;
+    border-radius: 0px 0px 10px 10px;
 }
 .ladolado{
     display: flex;
