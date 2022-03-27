@@ -105,7 +105,7 @@ section>article>div{
 }
 div>a{
     text-decoration: none;
-    background-image: linear-gradient(to bottom,#01ace0, #5bd1f5 );
+    background-image: linear-gradient(to bottom,#5bd1f5, #01ace0 );
     color: white;
     padding: 8px;
     border-radius: 16px;
