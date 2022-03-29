@@ -40,7 +40,7 @@ header img{
    max-width: 60%;
    min-width: 30%;
 }
-a{  
+nav>a{
     border-radius: 16px;
     font: 400 16px var(--font5);
     font-weight: normal;
@@ -48,14 +48,12 @@ a{
     color: white;
      padding: 1px 10px 1px 10px; 
      line-height: 25px;
-     margin: 20px 10px 20px 10px;
-     
+     margin: 30px 10px 30px 10px;
 }
-a:hover{
+nav>a:hover{
     background-color: rgba(255, 255, 255, 0.137);
-    padding: 3px 7px 3px 7px;
+    padding: 1px 10px 1px 10px;
     color:#0b2868c2 ;
-    
 }
 main{
     background-color: white;
