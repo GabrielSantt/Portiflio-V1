@@ -83,9 +83,16 @@ div>p, div{
     font: 400 17px var(--font2);
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.493);}
 #azul{
-    background-color: #0099c7;
+    background-color: #04b7ee75;
     margin: -px;
-    border-radius: 0px 0px 10px 10px;
+   
+}
+#azul:hover{
+    background-color:#04b7ee8f;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.178);
+}
+#sombra:hover{
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.178);
 }
 .ladolado{
     display: flex;
